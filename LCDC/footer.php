@@ -13,6 +13,8 @@
 	
     <link href="css/bootstrap1.css" rel="stylesheet">
     <link href="css/style7.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Add icon library -->
 
 
@@ -104,10 +106,10 @@
           <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact us</h5>
 
           <ul class="list-unstyled">
-            <li> <i class="fal fa-map-marker"></i> Dilibazar, Kathmandu</li>
-            <li> <i class="fa fa-envelope-o"></i> info@LCDC.com</li>
-            <li> <i class="fa fa-phone"></i> +977-9860560109 </li>
-            <li> <i class="fa fa-fax"></i> (896) 123-3245 </li>
+            <li> <i class="fa fa-map-marker"> </i> Dilibazar, Kathmandu</li>
+            <li> <i class="fa fa-envelope-o"> </i> info@LCDC.com</li>
+            <li> <i class="fa fa-phone"> </i> +977-9860560109 </li>
+            <li> <i class="fa fa-fax"> </i> (896) 123-3245 </li>
           </ul>
 
         </div>
@@ -127,29 +129,29 @@
 	<p class="footer-copyright text-center py-3">Connect with us on social site to get latest update</p>
       <li class="list-inline-item">
         <a class="btn-floating btn-fb mx-1">
-         <a href="https://en-gb.facebook.com/login/"><img src="images/fb.png" alt="facebook" /></a>
+         <a href="https://en-gb.facebook.com/login/"><i class="fa fa-facebook"></i></a>
         </a>
       </li>
 	  <li class="list-inline-item">
         <a class="btn-floating btn-tw mx-1">
-			<a href="https://www.instagram.com/?hl=en" ><img src="images/insta.png" alt="instagram" /></a>
+			<a href="https://www.instagram.com/?hl=en" ><i class="fa fa-instagram"></i></a>
 	          </a>
       </li>
 	  
       <li class="list-inline-item">
         <a class="btn-floating btn-tw mx-1">
-         <a href="https://twitter.com/login?lang=en"><img src="images/twitter.png" alt="Twitter" /></a>
+         <a href="https://twitter.com/login?lang=en"><i class="fa fa-twitter"></i></a>
         </a>
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-gplus mx-1">
-          <a href="https://plus.google.com/people"><img src="images/google.png" alt="Google+" /></a>
+          <a href="https://plus.google.com/people"><i class="fa fa-google-plus-square"></i></a>
         </a>
       </li>
       </li>
       <li class="list-inline-item">
         <a class="btn-floating btn-dribbble mx-1">
-          <a href="https://reader.rss.com/login"><img src="images/rss.png" alt="rss" /></a>
+          <a href="https://reader.rss.com/login"><i class="fa fa-rss"></i></a>
         </a>
       </li>
     </ul>

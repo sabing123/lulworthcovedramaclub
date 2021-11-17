@@ -6,12 +6,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>home</title>
 
     <!-- Bootstrap core CSS -->
 	
     <link href="css/bootstrap1.css" rel="stylesheet">
     <link href="css/style7.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -31,7 +33,7 @@
     <nav class="navbar navbar-expand-lg  bg-dark navigation"style="color:white;">
       <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"><i class="fa fa-bars" style="font-size:48px;color:white"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -57,7 +59,7 @@
 
 			    <form class="form-inline" action="index.php">
 							<input class="form-control mr-sm-2" type="text" placeholder="Search">
-								<button class="btn btn-success"><img src ="images/search.png" alt="search" width="40" /></button>
+								<button class="btn btn-success"><i class="fa fa-search" width="400"></i></button>
 								</form>
 	
 		</ul>
