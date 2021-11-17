@@ -199,7 +199,7 @@
 					
 						
 										
-										
+							
 									<div class="col-md-7" style="background:#aaddcc; text-align:center; ">
 									<hr><h1 class="title">Review from Parents</h1><hr>
 										<?php
