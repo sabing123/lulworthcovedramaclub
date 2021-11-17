@@ -1,0 +1,436 @@
+/* paragraph */
+p
+{text-align:justify;}
+
+.paragraph
+{
+	text-align:justify;
+	color:red !important;
+	}
+/* heading */
+.heading
+{
+	background:dodgerblue;
+	text-align:center;
+	
+}
+
+/* home about us */
+
+.info
+{
+	background:#f1f1f1;
+	font-size:25px;
+	font-family:serif;
+	height:100%;
+}
+.info h1
+{
+	color:dodgerblue;
+	text-align:center;
+}
+/* advertisement */
+.ad
+{
+	background:#f1f1f1;
+	text-align:justify;
+	 border: 4px solid #aaddcc;
+}
+.ad h3
+{color:dodgerblue;}
+
+/* login form */
+	.loginform 
+	{
+
+	 border: 3px solid dodgerblue;
+	background:#f1f1f1;
+	float:right;
+	
+		
+	}
+
+.login input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.login input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login button {
+  background-color: #f1f1f1;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size:25px;
+}
+
+.login button:hover {
+	background:dodgerblue;
+	color:orange;
+  opacity: 0.8;
+}
+
+.registerbtn {
+	
+  width: auto;
+  padding: 10px 18px;
+  background-color: black;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.fpsw {
+  float: right;
+  padding-top: 2px;
+}
+
+/* regsiter form */
+.form-wrap
+{
+background:#f1f1f1;
+width:100%;
+font-size:20px;
+padding:25px;
+margin-left:100px;
+height:auto;
+border: 3px solid #f1f1f1;
+}
+.form-wrap input[type='text']
+{
+	width:100%;
+	padding:10px;
+	border:4px solid #ff00bb;
+	border-radius:8px;
+	}
+	
+.form-wrap input[type='password']
+	{
+	width:100%;
+	padding:10px;
+	border:4px solid #ff00bb;
+	border-radius:8px;
+	}
+	.form-wrap input[type='submit']
+	{
+	width:250px;
+	padding:10px;
+	border:4px solid #ffbbcc;
+	font-size:30px;
+	border-radius:50px;
+	}
+	
+	.navigation
+	{
+		
+		background:#040527 !important;
+		/* color:#fff !important; */
+		width:100%;
+		padding:10px;
+		font-size:28px;
+		text-align:center;
+		
+		
+	}
+	/* search button */
+	.btn-success { 
+	color:white;    
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
+}
+	
+	
+	/* upcoming */
+	.upcoming
+	{
+	border:4px solid #aaddcc;	
+	}
+	.upcoming .eventimage
+	{width:100%;}
+	
+	.title
+	{
+		text-align:center;
+	}
+	.upcoming .eventcontent
+	{	 
+		width:100%;
+		background:#eee;
+	}
+	.upcoming .eventdate
+	{
+		width:100%;
+		
+	background:#aaddcc;
+	}
+	.upcoming .intro
+	{
+		padding:10px;
+		color:blue;
+	}
+	/* footer */
+	
+	.foot
+	{
+		padding:10px;
+		color:white;
+		background-color:black;
+		border:4px solid #aaddcc;
+		
+	}
+	.foot h4
+	{
+		text-align:center;
+	}
+	.foot h5
+	{
+		text-align:center;
+	}
+	.foot h3
+	{
+		text-align:center;
+	}
+	.foot .subscribe input[type='text']
+{
+	width:100%;
+	padding:10px;
+	border:4px;
+	border-radius:8px;
+	text-align:center
+}
+	.foot .subscribe
+	{
+		padding:10px;
+			position:relative;
+		margin-left:550px;
+	background-color:#040527;
+		width:40%;
+		color:white;
+		border-radius:10px;
+	}
+	
+	/* socialmedia	*/
+	.fa {
+
+  font-size: 30px;
+  text-align: justify;
+  text-decoration: none;
+
+}
+.fa:hover {
+
+	  text-decoration: none;
+}
+
+.cookies
+{
+	font-size:18px;
+	width: auto;
+	background:black;
+	color:red !important;
+	
+}
+.cookies a{text-decoration:none;}
+.cookies a gotit
+{
+	background:red;
+}
+/* vetrical line */
+.vl {
+  border-left: 6px solid green;
+  height: 160px;
+}
+
+
+
+
+/* Chatting */
+/* CSS for Chat */
+.chat{
+    right:2%;
+    bottom:8%;
+    position:fixed;
+    z-index: 99999;
+}
+.message-icon{
+    width:60px;
+    height:60px;
+    background-color:rgb(42, 71, 165);
+    float:right;
+}
+.message-icon img{
+    margin: 15px 15px;
+    position: absolute;
+}
+.message-box{
+    width: 300px;
+    height:350px;
+    background-color:azure;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+ 
+}
+.message-history{
+    width:95%;
+    height:300px;
+    margin:0 auto;
+    padding:10px;
+    overflow:auto;
+}
+/* CSS for Chat upto here */
+
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 100%;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 150px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+/* blog */
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+     border: 3px solid #f1f1f1;
+	 text-align:jusity;
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+ 
+}
+.fakeimg .img-blog
+{
+	height:250px;
+	width: 100%;;
+}
+
+.blogform
+{
+	 border: 3px solid dodgerblue;
+	background:#f1f1f1;
+	width:auto;
+	
+	
+}
+.blogform .title
+{
+	color:blue;
+	width:60%;
+	height:10%;
+}
+.blogform .content
+
+{
+	width:100%;
+	
+
+}
+.blogheading
+{
+	color:dodgerblue;
+}
+.map {
+
+   padding: 20px;
+   margin-top: 20px;
+     border: 3px solid #f1f1f1;
+	 width:100%;
+	 height:700px;
+}
+/* table */
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  padding:10px;
+  
+}
+
+/* booking */
+.booking{
+	 border: 3px solid #f1f1f1;
+	
+}
+.forum
+{
+	background:#4CAF50;
+}
+
+.forum  input[type='text']
+{
+	width:100%;
+	color:red;
+	
+}
